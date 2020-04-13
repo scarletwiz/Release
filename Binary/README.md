@@ -1,8 +1,25 @@
 # Release Version 
 
-Recommend Version for the new project is 1.1.0.6.<BR>
+Recommend Version for the new project is 1.1.0.7.<BR>
+AT+CIUPDATE<BR>
+An OTA URL is http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img.<BR>
 
 Recommend Version for existing project is 1.0.7.2.<BR>
+AT+CIUPDATE<BR>
+An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
+
+## Released 1.1.0.7<BR>
+ 20200413<BR>
+ For the new project<BR>
+
+1.  Added AT+AWSCON<BR>
+
+2.  Added AT+AWSPKSEND<BR>
+
+3.  Added AT+CLICASEND<BR>
+
+4.  Fixed AutoConnect<BR>
+    When it connected to AP automatically, it didn't back up mode value of parameters, so the wrong value(0) was written to flash. After reset, its mode value of parameters was 0, and then it didn't try to connect to AP automatically.
 
 ## Released 1.1.0.6<BR>
  20200309<BR>

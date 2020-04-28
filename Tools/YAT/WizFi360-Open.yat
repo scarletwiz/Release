@@ -5,7 +5,7 @@
   <ProductVersion>2.0.0</ProductVersion>
   <Warning>Modifying this file may cause undefined behavior!</Warning>
   <Saved>
-    <TimeStamp>2020-04-28T14:55:14.2871827+09:00</TimeStamp>
+    <TimeStamp>2020-04-28T19:18:04.9407326+09:00</TimeStamp>
     <UserName>taylor</UserName>
   </Saved>
   <AutoSaved>false</AutoSaved>
@@ -340,7 +340,7 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CWSAP_CUR="WizFi360","0123456789",1,0</Description>
+          <Description>AT+CWSAP_CUR="WizFi360","0123456789",1,0\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CWSAP_CUR="WizFi360","0123456789",1,0\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
@@ -356,7 +356,7 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CIFSR</Description>
+          <Description>AT+CIFSR\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CIFSR\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
@@ -364,7 +364,7 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CWLIF</Description>
+          <Description>AT+CWLIF\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CWLIF\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
@@ -391,9 +391,9 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CWJAP_CUR="Taylor-ipTimeN604plus-i","wiznet1206"\r\n</Description>
+          <Description>AT+CWJAP_CUR="Taylor-ipTimeN604plus-i","012345678"\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
-          <CommandLines>AT+CWJAP_CUR="Taylor-ipTimeN604plus-i","wiznet1206"\r\n</CommandLines>
+          <CommandLines>AT+CWJAP_CUR="Taylor-ipTimeN604plus-i","012345678"\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
           <FilePath />
         </Commands>
@@ -407,7 +407,7 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CIFSR</Description>
+          <Description>AT+CIFSR\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CIFSR\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
@@ -415,7 +415,7 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CWQAP</Description>
+          <Description>AT+CWQAP\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CWQAP\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
@@ -485,7 +485,7 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CIPSEND=0,10</Description>
+          <Description>AT+CIPSEND=0,10\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CIPSEND=0,10\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
@@ -493,7 +493,7 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CIPSENDBUF=0,10</Description>
+          <Description>AT+CIPSENDBUF=0,10\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CIPSENDBUF=0,10\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
@@ -501,9 +501,33 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CIPSENDEX=0,10</Description>
+          <Description>AT+CIPSENDEX=0,10\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
           <CommandLines>AT+CIPSENDEX=0,10\r\n</CommandLines>
+          <IsFilePath>false</IsFilePath>
+          <FilePath />
+        </Commands>
+        <Commands>
+          <IsDefined>true</IsDefined>
+          <Description>AT+CIPSEND=1,10\r\n</Description>
+          <DefaultRadix>String</DefaultRadix>
+          <CommandLines>AT+CIPSEND=1,10\r\n</CommandLines>
+          <IsFilePath>false</IsFilePath>
+          <FilePath />
+        </Commands>
+        <Commands>
+          <IsDefined>true</IsDefined>
+          <Description>AT+CIPSENDBUF=1,10\r\n</Description>
+          <DefaultRadix>String</DefaultRadix>
+          <CommandLines>AT+CIPSENDBUF=1,10\r\n</CommandLines>
+          <IsFilePath>false</IsFilePath>
+          <FilePath />
+        </Commands>
+        <Commands>
+          <IsDefined>true</IsDefined>
+          <Description>AT+CIPSENDEX=1,10\r\n</Description>
+          <DefaultRadix>String</DefaultRadix>
+          <CommandLines>AT+CIPSENDEX=1,10\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
           <FilePath />
         </Commands>
@@ -536,9 +560,9 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CIPSTART="TCP","192.168.100.28",5000\r\n</Description>
+          <Description>AT+CIPSTART="TCP","192.168.0.8",5000\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
-          <CommandLines>AT+CIPSTART="TCP","192.168.100.28",5000\r\n</CommandLines>
+          <CommandLines>AT+CIPSTART="TCP","192.168.0.8",5000\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
           <FilePath />
         </Commands>
@@ -908,9 +932,9 @@
         </Commands>
         <Commands>
           <IsDefined>true</IsDefined>
-          <Description>AT+CIPSEND=10,"192.168.0.8",5000\r\n</Description>
+          <Description>AT+CIPSEND\r\n</Description>
           <DefaultRadix>String</DefaultRadix>
-          <CommandLines>AT+CIPSEND=10,"192.168.0.8",5000\r\n</CommandLines>
+          <CommandLines>AT+CIPSEND\r\n</CommandLines>
           <IsFilePath>false</IsFilePath>
           <FilePath />
         </Commands>
@@ -1119,6 +1143,14 @@
   <Implicit>
     <TerminalIsStarted>true</TerminalIsStarted>
     <SendText>
+      <Command>
+        <IsDefined>false</IsDefined>
+        <Description />
+        <DefaultRadix>String</DefaultRadix>
+        <CommandLines />
+        <IsFilePath>false</IsFilePath>
+        <FilePath />
+      </Command>
     </SendText>
     <SendFile>
       <Command>
@@ -1131,7 +1163,7 @@
       </Command>
     </SendFile>
     <Predefined>
-      <SelectedPage>9</SelectedPage>
+      <SelectedPage>1</SelectedPage>
     </Predefined>
     <Window>
       <State>Normal</State>

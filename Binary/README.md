@@ -1,54 +1,12 @@
 # Release Version 
 
-Recommend Version for the new project is 1.1.0.8.<BR>
+Recommend Version for the new project is 1.1.0.7.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img.<BR>
 
-Recommend Version for existing project is 1.0.7.3.<BR>
+Recommend Version for existing project is 1.0.7.2.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
-
-## Released 1.1.0.8<BR>
- 20200903<BR>
-
-1. Added SUB Topic 2, max 5 sub topic
-
-2. Added MQTTPUBDEX command
-
-3. Added AWS MQTT topic 4 in aws_app_int()
-
-4. Changed HOSTIF_TASK_STK_SIZE 500 → 1200(If SPI SSL connect, error "task[uart sp] prio[45]stack over flow")
-
-5. Fixed auto connection sequence when using AT command "AT+SAVETRANSLINK"
-
-	TCP auto connection was normal, but UDP auto connection was defective. → UDP auto connection is normal.
-
-6. Fixed "AT+CWSAP" maxconn
-
-	Fixed the maximum number of stations are connected to softap.
-
-7. Fixed defects that do not set the maximum number of stations are connected to softap
-
-	Used function "tls_wifi_softap_set_sta_num()".
-
-## Released 1.0.7.3<BR>
- 20200903<BR>
-
-1. Fixed AT+CWSTARTSMART
-
-	When it started WebServer, at_wifiMode was still station. And it had printed STAIP on Command CIFSR.
-
-2. Added Error Message of autoconnect
-
-	When it prepared autoconnect, there was no message of the reason for failure.
-
-3. Fixed auto connection & transparent mode sequence when using AT command "AT+SAVETRANSLINK"
-
-	TCP auto connection & transparent mode was normal, but UDP auto connection & transparent mode was defective. → UDP auto connection & transparent mode is normal.
-
-4. Fixed "AT+CWSAP" maxconn
-
-	Fixed the maximum number of stations are connected to softap.
 
 ## Released 1.1.0.7<BR>
  20200413<BR>

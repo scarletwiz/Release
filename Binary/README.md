@@ -1,12 +1,52 @@
-# Release Version 
+# Release Version
 
-Recommend Version for the new project is 1.1.0.7.<BR>
+Recommend Version for the new project is 1.1.0.8.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img.<BR>
 
-Recommend Version for existing project is 1.0.7.2.<BR>
+Recommend Version for existing project is 1.0.7.3.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
+
+## Released 1.1.0.8<BR>
+ 20200903<BR>
+
+1. Added sub topic 2, max 5 sub topic
+
+2. Added MQTTPUBDEX command
+
+3. Added AWS MQTT topic 4 in AWS application initialization  function
+
+4. Fixed hostif task stack size(If SPI SSL connect, stack overflow occurs)
+
+5. Fixed auto connection sequence when using AT command "AT+SAVETRANSLINK"
+
+	UDP auto connection was defective.
+
+6. Fixed "AT+CWSAP"
+
+	Fixed the maximum number of stations are connected to SoftAP.
+
+7. Fixed defects that do not set the maximum number of stations are connected to SoftAP
+
+## Released 1.0.7.3<BR>
+ 20200903<BR>
+
+1. Fixed AT+CWSTARTSMART
+
+	When it started web server, Wi-Fi mode variable was still Station. And it had printed Staion IP on Command CIFSR.
+
+2. Added error message of auto connect
+
+	When it prepared auto connect, there was no message of the reason for failure.
+
+3. Fixed auto connection & transparent mode sequence when using AT command "AT+SAVETRANSLINK"
+
+	UDP auto connection & transparent mode was defective.
+
+4. Fixed "AT+CWSAP"
+
+	Fixed the maximum number of stations are connected to SoftAP.
 
 ## Released 1.1.0.7<BR>
  20200413<BR>

@@ -1,12 +1,28 @@
 # Release Version
 
-Recommend Version for the new project is 1.1.0.8.<BR>
+Recommend Version for the new project is 1.1.0.9.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img.<BR>
 
-Recommend Version for existing project is 1.0.7.3.<BR>
+Recommend Version for existing project is 1.0.7.4.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
+
+## Released 1.1.0.9<BR>
+ 20200911<BR>
+
+1. Fixed Wi-Fi connection can be made even if SSID is used as a special character
+
+	Wi-Fi connection and auto connection using web server configuration.
+
+2. Fixed AT command array size
+
+## Released 1.0.7.4<BR>
+ 20200911<BR>
+
+1. Fixed Wi-Fi connection can be made even if SSID is used as a special character
+
+	Wi-Fi connection and auto connection using web server configuration.
 
 ## Released 1.1.0.8<BR>
  20200903<BR>

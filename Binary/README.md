@@ -1,12 +1,17 @@
 # Release Version
 
-Recommend Version for the new project is 1.1.1.0.<BR>
+Recommend Version for the new project is 1.1.1.1.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img.<BR>
 
 Recommend Version for existing project is 1.0.7.5.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
+
+## Released 1.1.1.1<BR>
+ 20201224<BR>
+
+1. Fixed bugs related to SPI, CWDHCP_DEF command
 
 ## Released 1.1.1.0<BR>
  20201006<BR>

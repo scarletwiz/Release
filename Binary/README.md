@@ -1,12 +1,19 @@
 # Release Version
 
-Recommend Version for the new project is 1.1.1.1.<BR>
+Recommend Version for the new project is 1.1.1.2.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img.<BR>
 
 Recommend Version for existing project is 1.0.7.5.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
+
+## Released 1.1.1.2<BR>
+ 20210107<BR>
+ 
+1. Fix bug related to link ID 0 closure when others socket are closed by external reasons (AT+CIPMUX=1) 
+2. Update AT+MQTTCON: <linkID> parameter added when AT+CIPMUX=1
+
 
 ## Released 1.1.1.1<BR>
  20201224<BR>

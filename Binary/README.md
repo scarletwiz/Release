@@ -1,6 +1,6 @@
 # Release Version
 
-Recommend Version for the new project is 1.1.1.2.<BR>
+Recommend Version for the new project is 1.1.1.7.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img.<BR>
 
@@ -8,12 +8,27 @@ Recommend Version for existing project is 1.0.7.5.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
 
+## Released 1.1.1.7<BR>
+ 20210504<BR>
+
+1. Removed unnecessary debug outputs
+
+2. Added more ciphersuite support
+
+3. Patched SSL socket close function
+
+4. Fixed double print in "AT+CIPCLOSE"
+
+5. Added semaphore for UART to TCP, SSL, MQTT
+
+6. Fixed "AT+MQTTSET?" bugs
+
 ## Released 1.1.1.2<BR>
  20210107<BR>
- 
-1. Fix bug related to link ID 0 closure when others socket are closed by external reasons (AT+CIPMUX=1) 
-2. Update AT+MQTTCON: <linkID> parameter added when AT+CIPMUX=1
 
+1. Fix bug related to link ID 0 closure when others socket are closed by external reasons (AT+CIPMUX=1)
+
+2. Update AT+MQTTCON: <linkID> parameter added when AT+CIPMUX=1
 
 ## Released 1.1.1.1<BR>
  20201224<BR>
@@ -53,7 +68,7 @@ An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
 
 2. Added MQTTPUBDEX command
 
-3. Added AWS MQTT topic 4 in AWS application initialization  function
+3. Added AWS MQTT topic 4 in AWS application initialization function
 
 4. Fixed hostif task stack size(If SPI SSL connect, stack overflow occurs)
 

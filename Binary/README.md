@@ -8,7 +8,16 @@ Recommend Version for existing project is 1.0.7.5.<BR>
 AT+CIUPDATE<BR>
 An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
 
+## Released 1.1.1.8<BR>
+
+ 20220218<BR>
+
+1. Update TCP server transparent transmission mode.
+
+2. Fixed bug related to SSL Buffer size 4096 setting in SPI mode.
+
 ## Released 1.1.1.7<BR>
+
  20210504<BR>
 
 1. Removed unnecessary debug outputs
@@ -201,8 +210,8 @@ An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
     An OTA URL is http://wizwiki.net/download/WizFi360/WizFi360_SDK.img.<BR>
     
     If you want to update to Version 1.1.x.x, run AT+CIUPDATE="http://wizwiki.net/download/WizFi360/O11/WizFi360_SDK.img"\r\n
- 
+
  부팅시 PB13이 low level이면 SPI Mode로 실행 됩니다.<BR>
  SPI Mode에서는 UART로 AT Command를 받지 않고 출력도 하지 않습니다.<BR>
- 
+
  
